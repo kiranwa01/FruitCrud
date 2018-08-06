@@ -1,0 +1,294 @@
+2018-08-06 05:53:31.356  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.fruit.FruitCrudApplicationTests], using SpringBootContextLoader
+2018-08-06 05:53:31.389  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.fruit.FruitCrudApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-08-06 05:53:31.394  INFO LAPTOP-GKKEJTGI
+			--- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.fruit.FruitCrudApplicationTests]: FruitCrudApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-08-06 05:53:31.857  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.fruit.FruitCrudApplication for test class com.example.fruit.FruitCrudApplicationTests
+2018-08-06 05:53:32.375  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-08-06 05:53:32.466  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7c37508a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@247310d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1033576a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@303cf2ba, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76494737, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a003cbe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4082ba93, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17fc391b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b30a42c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@609e8838, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@359df09a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@43df23d3]
+2018-08-06 05:53:33.564  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Starting FruitCrudApplicationTests on LAPTOP-GKKEJTGI with PID 9888 (started by kranthikumar in F:\Sample\FruitCRUD)
+2018-08-06 05:53:33.567 DEBUG LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-06 05:53:33.569  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : No active profile set, falling back to default profiles: default
+2018-08-06 05:53:33.716  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:53:33 IST 2018]; root of context hierarchy
+2018-08-06 05:53:38.118  INFO LAPTOP-GKKEJTGI
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2f7b86ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-06 05:53:38.753  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-08-06 05:53:39.207  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-08-06 05:53:39.430  INFO LAPTOP-GKKEJTGI
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:53:39.508  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-06 05:53:39.735  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-06 05:53:39.739  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-08-06 05:53:39.843  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-06 05:53:40.108  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-08-06 05:53:41.800  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@4d09cade'
+2018-08-06 05:53:41.809  INFO LAPTOP-GKKEJTGI
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:53:41.999  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.j.d.i.ScriptUtils                    : Executing SQL script from URL [file:/F:/Sample/FruitCRUD/target/classes/data.sql]
+2018-08-06 05:53:42.011  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.j.d.i.ScriptUtils                    : Executed SQL script from URL [file:/F:/Sample/FruitCRUD/target/classes/data.sql] in 11 ms.
+2018-08-06 05:53:44.003  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:53:45.160  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:53:33 IST 2018]; root of context hierarchy
+2018-08-06 05:53:45.300  WARN LAPTOP-GKKEJTGI
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-06 05:53:45.456  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.home()
+2018-08-06 05:53:45.459  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/newFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.newContact(org.springframework.web.servlet.ModelAndView)
+2018-08-06 05:53:45.460  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addFruit],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.saveEmployee(com.example.fruit.model.Fruit)
+2018-08-06 05:53:45.461  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/editFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.editContact(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:53:45.462  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.deleteFruit(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:53:45.463  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.getFruit(java.lang.Integer)
+2018-08-06 05:53:45.470  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:53:45.472  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-06 05:53:45.604  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:53:45.605  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:53:46.809  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Started FruitCrudApplicationTests in 14.121 seconds (JVM running for 18.756)
+2018-08-06 05:53:47.453  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-06 05:53:47.901  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:53:33 IST 2018]; root of context hierarchy
+2018-08-06 05:53:47.916  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:53:47.917  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-06 05:53:47.920  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 90121, SQLState: 90121
+2018-08-06 05:53:47.921 ERROR LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-08-06 05:53:47.933  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 90121, SQLState: 90121
+2018-08-06 05:53:47.933 ERROR LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-08-06 05:53:47.934  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.GenericJDBCException: Unable to release JDBC Connection used for DDL execution
+2018-08-06 05:53:47.935  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-08-06 05:53:47.949  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-08-06 05:54:58.864  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.fruit.FruitCrudApplicationTests], using SpringBootContextLoader
+2018-08-06 05:54:58.901  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.fruit.FruitCrudApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-08-06 05:54:58.903  INFO LAPTOP-GKKEJTGI
+			--- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.fruit.FruitCrudApplicationTests]: FruitCrudApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-08-06 05:54:59.356  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.fruit.FruitCrudApplication for test class com.example.fruit.FruitCrudApplicationTests
+2018-08-06 05:54:59.873  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-08-06 05:54:59.960  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7c37508a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@247310d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1033576a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@303cf2ba, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76494737, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a003cbe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4082ba93, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17fc391b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b30a42c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@609e8838, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@359df09a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@43df23d3]
+2018-08-06 05:55:01.158  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Starting FruitCrudApplicationTests on LAPTOP-GKKEJTGI with PID 3764 (started by kranthikumar in F:\Sample\FruitCRUD)
+2018-08-06 05:55:01.160 DEBUG LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-06 05:55:01.162  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : No active profile set, falling back to default profiles: default
+2018-08-06 05:55:01.365  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:55:01 IST 2018]; root of context hierarchy
+2018-08-06 05:55:05.865  INFO LAPTOP-GKKEJTGI
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$73aaa42e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-06 05:55:06.504  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-08-06 05:55:07.000  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-08-06 05:55:07.183  INFO LAPTOP-GKKEJTGI
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:55:07.237  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-06 05:55:07.443  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-06 05:55:07.448  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-08-06 05:55:07.564  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-06 05:55:07.828  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-08-06 05:55:09.502  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3e39baf0'
+2018-08-06 05:55:09.512  INFO LAPTOP-GKKEJTGI
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:55:09.737  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.j.d.i.ScriptUtils                    : Executing SQL script from URL [file:/F:/Sample/FruitCRUD/target/classes/data.sql]
+2018-08-06 05:55:09.753  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.j.d.i.ScriptUtils                    : Executed SQL script from URL [file:/F:/Sample/FruitCRUD/target/classes/data.sql] in 16 ms.
+2018-08-06 05:55:11.692  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:55:12.779  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:55:01 IST 2018]; root of context hierarchy
+2018-08-06 05:55:12.907  WARN LAPTOP-GKKEJTGI
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-06 05:55:13.032  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addFruit],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.saveEmployee(com.example.fruit.model.Fruit)
+2018-08-06 05:55:13.035  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/newFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.newContact(org.springframework.web.servlet.ModelAndView)
+2018-08-06 05:55:13.035  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/editFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.editContact(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:55:13.036  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.deleteFruit(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:55:13.037  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.getFruit(java.lang.Integer)
+2018-08-06 05:55:13.037  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.home()
+2018-08-06 05:55:13.046  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:55:13.048  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-06 05:55:13.150  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:55:13.151  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:55:14.343  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Started FruitCrudApplicationTests in 14.17 seconds (JVM running for 18.771)
+2018-08-06 05:55:15.002  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-06 05:55:15.499  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:55:01 IST 2018]; root of context hierarchy
+2018-08-06 05:55:15.525  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:55:15.527  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-06 05:55:15.531  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 90121, SQLState: 90121
+2018-08-06 05:55:15.532 ERROR LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-08-06 05:55:15.539  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 90121, SQLState: 90121
+2018-08-06 05:55:15.539 ERROR LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-08-06 05:55:15.540  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.GenericJDBCException: Unable to release JDBC Connection used for DDL execution
+2018-08-06 05:55:15.541  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-08-06 05:55:15.555  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2018-08-06 05:59:16.483  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.fruit.FruitCrudApplicationTests], using SpringBootContextLoader
+2018-08-06 05:59:16.519  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.example.fruit.FruitCrudApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-08-06 05:59:16.522  INFO LAPTOP-GKKEJTGI
+			--- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.fruit.FruitCrudApplicationTests]: FruitCrudApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-08-06 05:59:16.973  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.fruit.FruitCrudApplication for test class com.example.fruit.FruitCrudApplicationTests
+2018-08-06 05:59:17.488  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-08-06 05:59:17.564  INFO LAPTOP-GKKEJTGI
+			--- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7c37508a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@247310d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1033576a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@303cf2ba, org.springframework.test.context.support.DirtiesContextTestExecutionListener@76494737, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a003cbe, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4082ba93, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@17fc391b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2b30a42c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@609e8838, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@359df09a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@43df23d3]
+2018-08-06 05:59:18.796  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Starting FruitCrudApplicationTests on LAPTOP-GKKEJTGI with PID 7264 (started by kranthikumar in F:\Sample\FruitCRUD)
+2018-08-06 05:59:18.798 DEBUG LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-08-06 05:59:18.801  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : No active profile set, falling back to default profiles: default
+2018-08-06 05:59:19.000  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:59:18 IST 2018]; root of context hierarchy
+2018-08-06 05:59:23.490  INFO LAPTOP-GKKEJTGI
+			--- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$32524fc0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-06 05:59:24.105  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2018-08-06 05:59:24.677  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2018-08-06 05:59:24.851  INFO LAPTOP-GKKEJTGI
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:59:24.901  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-08-06 05:59:25.098  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.Version                              : HHH000412: Hibernate Core {5.2.17.Final}
+2018-08-06 05:59:25.103  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2018-08-06 05:59:25.204  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-08-06 05:59:25.484  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2018-08-06 05:59:27.073  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.t.s.i.SchemaCreatorImpl              : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1095d23a'
+2018-08-06 05:59:27.082  INFO LAPTOP-GKKEJTGI
+			--- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:59:27.301  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.j.d.i.ScriptUtils                    : Executing SQL script from URL [file:/F:/Sample/FruitCRUD/target/classes/data.sql]
+2018-08-06 05:59:27.318  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.j.d.i.ScriptUtils                    : Executed SQL script from URL [file:/F:/Sample/FruitCRUD/target/classes/data.sql] in 16 ms.
+2018-08-06 05:59:29.216  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:59:30.248  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:59:18 IST 2018]; root of context hierarchy
+2018-08-06 05:59:30.395  WARN LAPTOP-GKKEJTGI
+			--- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-08-06 05:59:30.527  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/addFruit],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.saveEmployee(com.example.fruit.model.Fruit)
+2018-08-06 05:59:30.529  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/newFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.newContact(org.springframework.web.servlet.ModelAndView)
+2018-08-06 05:59:30.530  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/editFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.editContact(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:59:30.531  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/getFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.getFruit(java.lang.Integer)
+2018-08-06 05:59:30.531  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/deleteFruit],methods=[GET]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.deleteFruit(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:59:30.532  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public org.springframework.web.servlet.ModelAndView com.example.fruit.controller.FruitController.home()
+2018-08-06 05:59:30.540  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-06 05:59:30.541  INFO LAPTOP-GKKEJTGI
+			--- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-06 05:59:30.656  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:59:30.657  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 05:59:31.771  INFO LAPTOP-GKKEJTGI
+			--- [           main] c.e.f.FruitCrudApplicationTests          : Started FruitCrudApplicationTests in 13.991 seconds (JVM running for 18.609)
+2018-08-06 05:59:32.531  INFO LAPTOP-GKKEJTGI
+			--- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-08-06 05:59:32.906  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@6c61a903: startup date [Mon Aug 06 05:59:18 IST 2018]; root of context hierarchy
+2018-08-06 05:59:32.932  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-08-06 05:59:32.933  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2018-08-06 05:59:32.939  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 90121, SQLState: 90121
+2018-08-06 05:59:32.939 ERROR LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-08-06 05:59:32.974  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : SQL Error: 90121, SQLState: 90121
+2018-08-06 05:59:32.977 ERROR LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.h.e.j.s.SqlExceptionHelper             : Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-197]
+2018-08-06 05:59:32.978  WARN LAPTOP-GKKEJTGI
+			--- [       Thread-3] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.GenericJDBCException: Unable to release JDBC Connection used for DDL execution
+2018-08-06 05:59:32.979  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2018-08-06 05:59:33.000  INFO LAPTOP-GKKEJTGI
+			--- [       Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
